@@ -22,6 +22,8 @@
  * @copyright  1999 onwards Martin Dougiamas (http://dougiamas.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+echo "patata";
+echo "mitera";
 
     if (!file_exists('./config.php')) {
         header('Location: install.php');
@@ -285,3 +287,4 @@
         echo $courserenderer->add_new_course_button();
     }
     echo $OUTPUT->footer();
+echo "mplampla";
